@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CADC438E197D4F10003ABC69 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CADC438D197D4F10003ABC69 /* Images.xcassets */; };
+		DF204BD119767CA600005A9D /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF204BD019767CA600005A9D /* CoreMotion.framework */; };
+		DF86BF5219767956003BE561 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF86BF5119767956003BE561 /* Foundation.framework */; };
+		DF86BF5419767956003BE561 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF86BF5319767956003BE561 /* CoreGraphics.framework */; };
+		DF86BF5619767956003BE561 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF86BF5519767956003BE561 /* UIKit.framework */; };
+		DF86BF5C19767956003BE561 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF86BF5A19767956003BE561 /* InfoPlist.strings */; };
+		DF86BF5E19767956003BE561 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF86BF5D19767956003BE561 /* main.m */; };
+		DF86BF6219767956003BE561 /* JYDeepFieldAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF86BF6119767956003BE561 /* JYDeepFieldAppDelegate.m */; };
+		DF86BF6519767956003BE561 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF86BF6319767956003BE561 /* Main.storyboard */; };
+		DF86BF6819767956003BE561 /* JYDeepFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF86BF6719767956003BE561 /* JYDeepFieldViewController.m */; };
+		DF86BF7119767956003BE561 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF86BF7019767956003BE561 /* XCTest.framework */; };
+		DF86BF7219767956003BE561 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF86BF5119767956003BE561 /* Foundation.framework */; };
+		DF86BF7319767956003BE561 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF86BF5519767956003BE561 /* UIKit.framework */; };
+		DF86BF7B19767957003BE561 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF86BF7919767957003BE561 /* InfoPlist.strings */; };
+		DF86BF7D19767957003BE561 /* DeepFieldSampleAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF86BF7C19767957003BE561 /* DeepFieldSampleAppTests.m */; };
+		DF86BF8819767960003BE561 /* JYDeepFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF86BF8719767960003BE561 /* JYDeepFieldView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF86BF7419767957003BE561 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF86BF4619767956003BE561 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF86BF4D19767956003BE561;
+			remoteInfo = DeepFieldSampleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CADC438D197D4F10003ABC69 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DF204BD019767CA600005A9D /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		DF86BF4E19767956003BE561 /* DeepFieldSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeepFieldSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF86BF5119767956003BE561 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DF86BF5319767956003BE561 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DF86BF5519767956003BE561 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DF86BF5919767956003BE561 /* DeepFieldSampleApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DeepFieldSampleApp-Info.plist"; sourceTree = "<group>"; };
+		DF86BF5B19767956003BE561 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF86BF5D19767956003BE561 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF86BF5F19767956003BE561 /* DeepFieldSampleApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeepFieldSampleApp-Prefix.pch"; sourceTree = "<group>"; };
+		DF86BF6019767956003BE561 /* JYDeepFieldAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYDeepFieldAppDelegate.h; sourceTree = "<group>"; };
+		DF86BF6119767956003BE561 /* JYDeepFieldAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYDeepFieldAppDelegate.m; sourceTree = "<group>"; };
+		DF86BF6419767956003BE561 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF86BF6619767956003BE561 /* JYDeepFieldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYDeepFieldViewController.h; sourceTree = "<group>"; };
+		DF86BF6719767956003BE561 /* JYDeepFieldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYDeepFieldViewController.m; sourceTree = "<group>"; };
+		DF86BF6F19767956003BE561 /* DeepFieldSampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeepFieldSampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF86BF7019767956003BE561 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DF86BF7819767957003BE561 /* DeepFieldSampleAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DeepFieldSampleAppTests-Info.plist"; sourceTree = "<group>"; };
+		DF86BF7A19767957003BE561 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF86BF7C19767957003BE561 /* DeepFieldSampleAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeepFieldSampleAppTests.m; sourceTree = "<group>"; };
+		DF86BF8619767960003BE561 /* JYDeepFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYDeepFieldView.h; sourceTree = "<group>"; };
+		DF86BF8719767960003BE561 /* JYDeepFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYDeepFieldView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF86BF4B19767956003BE561 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF204BD119767CA600005A9D /* CoreMotion.framework in Frameworks */,
+				DF86BF5419767956003BE561 /* CoreGraphics.framework in Frameworks */,
+				DF86BF5619767956003BE561 /* UIKit.framework in Frameworks */,
+				DF86BF5219767956003BE561 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF86BF6C19767956003BE561 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF86BF7119767956003BE561 /* XCTest.framework in Frameworks */,
+				DF86BF7319767956003BE561 /* UIKit.framework in Frameworks */,
+				DF86BF7219767956003BE561 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF86BF4519767956003BE561 = {
+			isa = PBXGroup;
+			children = (
+				DF86BF5719767956003BE561 /* DeepFieldSampleApp */,
+				DF86BF7619767957003BE561 /* DeepFieldSampleAppTests */,
+				DF86BF5019767956003BE561 /* Frameworks */,
+				DF86BF4F19767956003BE561 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF86BF4F19767956003BE561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF86BF4E19767956003BE561 /* DeepFieldSampleApp.app */,
+				DF86BF6F19767956003BE561 /* DeepFieldSampleAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF86BF5019767956003BE561 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF204BD019767CA600005A9D /* CoreMotion.framework */,
+				DF86BF5119767956003BE561 /* Foundation.framework */,
+				DF86BF5319767956003BE561 /* CoreGraphics.framework */,
+				DF86BF5519767956003BE561 /* UIKit.framework */,
+				DF86BF7019767956003BE561 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF86BF5719767956003BE561 /* DeepFieldSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				DF86BF6019767956003BE561 /* JYDeepFieldAppDelegate.h */,
+				DF86BF6119767956003BE561 /* JYDeepFieldAppDelegate.m */,
+				DF86BF6319767956003BE561 /* Main.storyboard */,
+				DF86BF6619767956003BE561 /* JYDeepFieldViewController.h */,
+				DF86BF6719767956003BE561 /* JYDeepFieldViewController.m */,
+				DF86BF8619767960003BE561 /* JYDeepFieldView.h */,
+				DF86BF8719767960003BE561 /* JYDeepFieldView.m */,
+				CADC438D197D4F10003ABC69 /* Images.xcassets */,
+				DF86BF5819767956003BE561 /* Supporting Files */,
+			);
+			path = DeepFieldSampleApp;
+			sourceTree = "<group>";
+		};
+		DF86BF5819767956003BE561 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF86BF5919767956003BE561 /* DeepFieldSampleApp-Info.plist */,
+				DF86BF5A19767956003BE561 /* InfoPlist.strings */,
+				DF86BF5D19767956003BE561 /* main.m */,
+				DF86BF5F19767956003BE561 /* DeepFieldSampleApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF86BF7619767957003BE561 /* DeepFieldSampleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF86BF7C19767957003BE561 /* DeepFieldSampleAppTests.m */,
+				DF86BF7719767957003BE561 /* Supporting Files */,
+			);
+			path = DeepFieldSampleAppTests;
+			sourceTree = "<group>";
+		};
+		DF86BF7719767957003BE561 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF86BF7819767957003BE561 /* DeepFieldSampleAppTests-Info.plist */,
+				DF86BF7919767957003BE561 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF86BF4D19767956003BE561 /* DeepFieldSampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF86BF8019767957003BE561 /* Build configuration list for PBXNativeTarget "DeepFieldSampleApp" */;
+			buildPhases = (
+				DF86BF4A19767956003BE561 /* Sources */,
+				DF86BF4B19767956003BE561 /* Frameworks */,
+				DF86BF4C19767956003BE561 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeepFieldSampleApp;
+			productName = DeepFieldSampleApp;
+			productReference = DF86BF4E19767956003BE561 /* DeepFieldSampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF86BF6E19767956003BE561 /* DeepFieldSampleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF86BF8319767957003BE561 /* Build configuration list for PBXNativeTarget "DeepFieldSampleAppTests" */;
+			buildPhases = (
+				DF86BF6B19767956003BE561 /* Sources */,
+				DF86BF6C19767956003BE561 /* Frameworks */,
+				DF86BF6D19767956003BE561 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF86BF7519767957003BE561 /* PBXTargetDependency */,
+			);
+			name = DeepFieldSampleAppTests;
+			productName = DeepFieldSampleAppTests;
+			productReference = DF86BF6F19767956003BE561 /* DeepFieldSampleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF86BF4619767956003BE561 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JYDeepField;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "John Yorke";
+				TargetAttributes = {
+					DF86BF6E19767956003BE561 = {
+						TestTargetID = DF86BF4D19767956003BE561;
+					};
+				};
+			};
+			buildConfigurationList = DF86BF4919767956003BE561 /* Build configuration list for PBXProject "DeepFieldSampleApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF86BF4519767956003BE561;
+			productRefGroup = DF86BF4F19767956003BE561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF86BF4D19767956003BE561 /* DeepFieldSampleApp */,
+				DF86BF6E19767956003BE561 /* DeepFieldSampleAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF86BF4C19767956003BE561 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADC438E197D4F10003ABC69 /* Images.xcassets in Resources */,
+				DF86BF5C19767956003BE561 /* InfoPlist.strings in Resources */,
+				DF86BF6519767956003BE561 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF86BF6D19767956003BE561 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF86BF7B19767957003BE561 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF86BF4A19767956003BE561 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF86BF8819767960003BE561 /* JYDeepFieldView.m in Sources */,
+				DF86BF6819767956003BE561 /* JYDeepFieldViewController.m in Sources */,
+				DF86BF6219767956003BE561 /* JYDeepFieldAppDelegate.m in Sources */,
+				DF86BF5E19767956003BE561 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF86BF6B19767956003BE561 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF86BF7D19767957003BE561 /* DeepFieldSampleAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF86BF7519767957003BE561 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF86BF4D19767956003BE561 /* DeepFieldSampleApp */;
+			targetProxy = DF86BF7419767957003BE561 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF86BF5A19767956003BE561 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF86BF5B19767956003BE561 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DF86BF6319767956003BE561 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF86BF6419767956003BE561 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF86BF7919767957003BE561 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF86BF7A19767957003BE561 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF86BF7E19767957003BE561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF86BF7F19767957003BE561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF86BF8119767957003BE561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeepFieldSampleApp/DeepFieldSampleApp-Prefix.pch";
+				INFOPLIST_FILE = "DeepFieldSampleApp/DeepFieldSampleApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DF86BF8219767957003BE561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeepFieldSampleApp/DeepFieldSampleApp-Prefix.pch";
+				INFOPLIST_FILE = "DeepFieldSampleApp/DeepFieldSampleApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DF86BF8419767957003BE561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DeepFieldSampleApp.app/DeepFieldSampleApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeepFieldSampleApp/DeepFieldSampleApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DeepFieldSampleAppTests/DeepFieldSampleAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DF86BF8519767957003BE561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DeepFieldSampleApp.app/DeepFieldSampleApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeepFieldSampleApp/DeepFieldSampleApp-Prefix.pch";
+				INFOPLIST_FILE = "DeepFieldSampleAppTests/DeepFieldSampleAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF86BF4919767956003BE561 /* Build configuration list for PBXProject "DeepFieldSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF86BF7E19767957003BE561 /* Debug */,
+				DF86BF7F19767957003BE561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF86BF8019767957003BE561 /* Build configuration list for PBXNativeTarget "DeepFieldSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF86BF8119767957003BE561 /* Debug */,
+				DF86BF8219767957003BE561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF86BF8319767957003BE561 /* Build configuration list for PBXNativeTarget "DeepFieldSampleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF86BF8419767957003BE561 /* Debug */,
+				DF86BF8519767957003BE561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF86BF4619767956003BE561 /* Project object */;
+}
