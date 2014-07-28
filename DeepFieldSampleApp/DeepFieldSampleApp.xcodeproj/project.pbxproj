@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CAC4439F1986897E003CA050 /* TOCMotionEffectsEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC4439D1986897E003CA050 /* TOCMotionEffectsEngine.m */; };
 		CADC438E197D4F10003ABC69 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CADC438D197D4F10003ABC69 /* Images.xcassets */; };
 		DF204BD119767CA600005A9D /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF204BD019767CA600005A9D /* CoreMotion.framework */; };
 		DF86BF5219767956003BE561 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF86BF5119767956003BE561 /* Foundation.framework */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CAC4439D1986897E003CA050 /* TOCMotionEffectsEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCMotionEffectsEngine.m; sourceTree = "<group>"; };
+		CAC4439E1986897E003CA050 /* TOCMotionEffectsEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCMotionEffectsEngine.h; sourceTree = "<group>"; };
 		CADC438D197D4F10003ABC69 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DF204BD019767CA600005A9D /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		DF86BF4E19767956003BE561 /* DeepFieldSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeepFieldSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,6 +129,8 @@
 				DF86BF6719767956003BE561 /* JYDeepFieldViewController.m */,
 				DF86BF8619767960003BE561 /* JYDeepFieldView.h */,
 				DF86BF8719767960003BE561 /* JYDeepFieldView.m */,
+				CAC4439D1986897E003CA050 /* TOCMotionEffectsEngine.m */,
+				CAC4439E1986897E003CA050 /* TOCMotionEffectsEngine.h */,
 				CADC438D197D4F10003ABC69 /* Images.xcassets */,
 				DF86BF5819767956003BE561 /* Supporting Files */,
 			);
@@ -263,6 +268,7 @@
 				DF86BF6819767956003BE561 /* JYDeepFieldViewController.m in Sources */,
 				DF86BF6219767956003BE561 /* JYDeepFieldAppDelegate.m in Sources */,
 				DF86BF5E19767956003BE561 /* main.m in Sources */,
+				CAC4439F1986897E003CA050 /* TOCMotionEffectsEngine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
