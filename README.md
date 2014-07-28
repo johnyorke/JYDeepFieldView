@@ -47,3 +47,8 @@ You're done! This particular scene should now have a subtle 3D effect applied to
 1. Make it work for varying view sizes.
 2. Make the different movement values configurable.
 3. Other cool stuff.
+=======
+Easy 3D parallax effect using 3 stacked UIImageViews.
+
+NB. Still work in progress!
+>>>>>>> FETCH_HEAD
