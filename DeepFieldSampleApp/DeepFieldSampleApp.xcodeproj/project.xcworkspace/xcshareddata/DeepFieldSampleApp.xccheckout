@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E89F2A7B-08E2-4CF9-AE44-C385FF3264EF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DeepFieldSampleApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3ECF6069-5751-4782-874B-AEC29E4F95AC</key>
+		<string>https://github.com/johnyorke/JYDeepFieldView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DeepFieldSampleApp/DeepFieldSampleApp.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3ECF6069-5751-4782-874B-AEC29E4F95AC</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/johnyorke/JYDeepFieldView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3ECF6069-5751-4782-874B-AEC29E4F95AC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3ECF6069-5751-4782-874B-AEC29E4F95AC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JYDeepFieldView</string>
+		</dict>
+	</array>
+</dict>
+</plist>
