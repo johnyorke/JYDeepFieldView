@@ -1,6 +1,8 @@
 JYDeepFieldView
 ===============
 
+<img src="https://raw.githubusercontent.com/johnyorke/JYDeepFieldView/master/images/deep_field.gif">
+
 # Intro
 
 JYDeepFieldView is an easy way to create a 3D parallax effect using 3 stacked UIImageViews. Ideal for use on intro screens or when you really want to bring an image to life.
